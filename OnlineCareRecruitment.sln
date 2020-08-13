@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ApiGateway", "ApiGateway", "{98CEBBAB-CC72-41A7-9662-62AC8C82073F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Identity", "Identity", "{9842027C-42B1-4137-A0E2-4F2533BFA9AB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sistemas", "Sistemas", "{9E8C8C52-FEB3-4D41-B2E2-18BE467DFDA1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FrontEnd", "FrontEnd", "{B5E4050B-0BB1-40DF-897D-2FAD6F6C4A70}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infraestrutura", "Infraestrutura", "{8A87AC0E-243D-47B2-9234-8611B65E72D9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CasdastroPessoa", "CasdastroPessoa", "{B145992D-7D3F-42CC-8263-D365FFA65FD6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Agenda", "Agenda", "{273A6F39-E62D-418E-9D27-3153C3D82306}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Estoque", "Estoque", "{F760F225-78E5-4E09-8F5C-2E9051D82107}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AdmMedicamentos", "AdmMedicamentos", "{EF946F21-D513-4C83-84E6-AAE5B2E827DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OCR.Estoque.Dominio", "src\OCR.Estoque.Dominio\OCR.Estoque.Dominio.csproj", "{864EE2F5-DD45-4320-8702-57C4838C6695}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{864EE2F5-DD45-4320-8702-57C4838C6695}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{864EE2F5-DD45-4320-8702-57C4838C6695}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{864EE2F5-DD45-4320-8702-57C4838C6695}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{864EE2F5-DD45-4320-8702-57C4838C6695}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B145992D-7D3F-42CC-8263-D365FFA65FD6} = {9E8C8C52-FEB3-4D41-B2E2-18BE467DFDA1}
+		{273A6F39-E62D-418E-9D27-3153C3D82306} = {9E8C8C52-FEB3-4D41-B2E2-18BE467DFDA1}
+		{F760F225-78E5-4E09-8F5C-2E9051D82107} = {9E8C8C52-FEB3-4D41-B2E2-18BE467DFDA1}
+		{EF946F21-D513-4C83-84E6-AAE5B2E827DB} = {9E8C8C52-FEB3-4D41-B2E2-18BE467DFDA1}
+		{864EE2F5-DD45-4320-8702-57C4838C6695} = {F760F225-78E5-4E09-8F5C-2E9051D82107}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {372C513E-3D50-4D71-9B79-2D13B7F71483}
+	EndGlobalSection
+EndGlobal
